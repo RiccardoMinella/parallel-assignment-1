@@ -1,7 +1,6 @@
-Compile the codes using the following commands:
+To run the experiments go in to the experiment folder and run the file script.sh,
+it will compile and run the codes
+
+If you compile the codes manually use the following commands then execute the files sigularly:
 - Sequential: `gcc -o sequential source.c`
 - Sequential: `gcc -O3 -march=native -o parallel source.c`
-
-> [!IMPORTANT]
-> Compile the code for each experiment keeping the output file in the experimet folder.
-> Execute the run.sh file inside each folder to run each experiment
